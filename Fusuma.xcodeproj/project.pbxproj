@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		099C9E251E47BD9800C8E004 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 099C9E1B1E47BD9800C8E004 /* Rubik-Black.ttf */; };
+		099C9E261E47BD9800C8E004 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 099C9E1C1E47BD9800C8E004 /* Rubik-BlackItalic.ttf */; };
+		099C9E271E47BD9800C8E004 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 099C9E1D1E47BD9800C8E004 /* Rubik-Bold.ttf */; };
+		099C9E281E47BD9800C8E004 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 099C9E1E1E47BD9800C8E004 /* Rubik-BoldItalic.ttf */; };
+		099C9E291E47BD9800C8E004 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 099C9E1F1E47BD9800C8E004 /* Rubik-Italic.ttf */; };
+		099C9E2A1E47BD9800C8E004 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 099C9E201E47BD9800C8E004 /* Rubik-Light.ttf */; };
+		099C9E2B1E47BD9800C8E004 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 099C9E211E47BD9800C8E004 /* Rubik-LightItalic.ttf */; };
+		099C9E2C1E47BD9800C8E004 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 099C9E221E47BD9800C8E004 /* Rubik-Medium.ttf */; };
+		099C9E2D1E47BD9800C8E004 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 099C9E231E47BD9800C8E004 /* Rubik-MediumItalic.ttf */; };
+		099C9E2E1E47BD9800C8E004 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 099C9E241E47BD9800C8E004 /* Rubik-Regular.ttf */; };
 		52412A971CA6114A0073C4BE /* Fusuma.h in Headers */ = {isa = PBXBuildFile; fileRef = 52412A961CA6114A0073C4BE /* Fusuma.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDDC0B3E1D04F53E009135DB /* FSVideoCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC0B3C1D04F53E009135DB /* FSVideoCameraView.swift */; };
 		EDDC0B3F1D04F53E009135DB /* FSVideoCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDC0B3D1D04F53E009135DB /* FSVideoCameraView.xib */; };
@@ -24,6 +34,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		099C9E1B1E47BD9800C8E004 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		099C9E1C1E47BD9800C8E004 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		099C9E1D1E47BD9800C8E004 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		099C9E1E1E47BD9800C8E004 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		099C9E1F1E47BD9800C8E004 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		099C9E201E47BD9800C8E004 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		099C9E211E47BD9800C8E004 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		099C9E221E47BD9800C8E004 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		099C9E231E47BD9800C8E004 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		099C9E241E47BD9800C8E004 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		52412A931CA6114A0073C4BE /* Fusuma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fusuma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52412A961CA6114A0073C4BE /* Fusuma.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fusuma.h; sourceTree = "<group>"; };
 		52412A981CA6114A0073C4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +73,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		099C9E2F1E47BD9E00C8E004 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				099C9E1B1E47BD9800C8E004 /* Rubik-Black.ttf */,
+				099C9E1C1E47BD9800C8E004 /* Rubik-BlackItalic.ttf */,
+				099C9E1D1E47BD9800C8E004 /* Rubik-Bold.ttf */,
+				099C9E1E1E47BD9800C8E004 /* Rubik-BoldItalic.ttf */,
+				099C9E1F1E47BD9800C8E004 /* Rubik-Italic.ttf */,
+				099C9E201E47BD9800C8E004 /* Rubik-Light.ttf */,
+				099C9E211E47BD9800C8E004 /* Rubik-LightItalic.ttf */,
+				099C9E221E47BD9800C8E004 /* Rubik-Medium.ttf */,
+				099C9E231E47BD9800C8E004 /* Rubik-MediumItalic.ttf */,
+				099C9E241E47BD9800C8E004 /* Rubik-Regular.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
 		52412A891CA6114A0073C4BE = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +134,7 @@
 				EDDC0B531D0511F2009135DB /* FSImageCropView.swift */,
 				EDDC0B3C1D04F53E009135DB /* FSVideoCameraView.swift */,
 				EDDC0B3D1D04F53E009135DB /* FSVideoCameraView.xib */,
+				099C9E2F1E47BD9E00C8E004 /* Font */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -171,11 +209,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDDC0B3F1D04F53E009135DB /* FSVideoCameraView.xib in Resources */,
+				099C9E2A1E47BD9800C8E004 /* Rubik-Light.ttf in Resources */,
+				099C9E271E47BD9800C8E004 /* Rubik-Bold.ttf in Resources */,
 				EDDC0B571D0511F2009135DB /* FSAlbumViewCell.xib in Resources */,
 				EDDC0B591D0511F2009135DB /* FSCameraView.xib in Resources */,
+				099C9E251E47BD9800C8E004 /* Rubik-Black.ttf in Resources */,
+				099C9E281E47BD9800C8E004 /* Rubik-BoldItalic.ttf in Resources */,
+				099C9E2D1E47BD9800C8E004 /* Rubik-MediumItalic.ttf in Resources */,
+				099C9E2B1E47BD9800C8E004 /* Rubik-LightItalic.ttf in Resources */,
+				099C9E2E1E47BD9800C8E004 /* Rubik-Regular.ttf in Resources */,
+				099C9E291E47BD9800C8E004 /* Rubik-Italic.ttf in Resources */,
 				EDDC0B551D0511F2009135DB /* FSAlbumView.xib in Resources */,
 				EDDC0B5D1D051245009135DB /* Assets.xcassets in Resources */,
+				099C9E261E47BD9800C8E004 /* Rubik-BlackItalic.ttf in Resources */,
 				EDDC0B4B1D0511E7009135DB /* FusumaViewController.xib in Resources */,
+				099C9E2C1E47BD9800C8E004 /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
