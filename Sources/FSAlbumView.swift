@@ -19,6 +19,7 @@ import Photos
 
 final class FSAlbumView: UIView, UICollectionViewDataSource, UICollectionViewDelegate, PHPhotoLibraryChangeObserver, UIGestureRecognizerDelegate {
     
+    @IBOutlet weak var division: UIImageView!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var imageCropView: FSImageCropView!
     @IBOutlet weak var imageCropViewContainer: UIView!
@@ -78,6 +79,8 @@ final class FSAlbumView: UIView, UICollectionViewDataSource, UICollectionViewDel
         collectionViewConstraintHeight.constant = self.frame.height - imageCropViewContainer.frame.height - imageCropViewOriginalConstraintTop
         imageCropViewConstraintTop.constant = 50
         dragDirection = Direction.up
+        
+        division.backgroundColor = UIColor.init(red: 72.0/255, green: 76.0/255, blue: 84.0/255, alpha: 1.0)
         
         imageCropViewContainer.layer.shadowColor   = UIColor.black.cgColor
         imageCropViewContainer.layer.shadowRadius  = 30.0

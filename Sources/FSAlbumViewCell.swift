@@ -29,7 +29,7 @@ final class FSAlbumViewCell: UICollectionViewCell {
     override var isSelected : Bool {
         didSet {
             self.layer.borderColor = isSelected ? fusumaTintColor.cgColor : UIColor.clear.cgColor
-            self.layer.borderWidth = isSelected ? 2 : 0
+            self.layer.borderWidth = isSelected ? 3 : 0
         }
     }
 }
